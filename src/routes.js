@@ -54,7 +54,7 @@ module.exports.register = (app, database) => {
             _status = "Success";
         }
 
-        let messsage = '{"status":"' + _status + '", "data":{"_itemID":"' + _id + '","_name":"' + _name + '","_quantity":"' + _quantity + '", "_price":"' + _price + '","_supplierID":"' + $
+        let messsage = '{"status":"' + _status + '", "data":{"_itemID":"' + _id + '","_name":"' + _name + '","_quantity":"' + _quantity + '", "_price":"' + _price + '","_supplierID":"'+ '"}}';
         const obj_messsage = JSON.parse(messsage);
         res.status(200).send((obj_messsage)).end();
 
