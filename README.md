@@ -1,5 +1,5 @@
 # COMP-3504-Assignment3
-
+# This is the API design and implementation repo that corresponds to the Assignment 2 frontend.
 | Method      | Endpoint                  |Parameters                                            |Description                                                               |
 | ----------- |---------------------------|------------------------------------------------------|--------------------------------------------------------------------------|
 | GET         | /                         |                                                      |Finds the list of all items                                               |
